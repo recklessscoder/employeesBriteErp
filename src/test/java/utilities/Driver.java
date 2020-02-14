@@ -24,6 +24,7 @@ public class Driver {
                     WebDriverManager.firefoxdriver().setup();
                     driver = new FirefoxDriver();
                     break;
+
             }
         }
         driver.manage().timeouts().implicitlyWait(10 , TimeUnit.SECONDS );
