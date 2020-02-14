@@ -14,12 +14,15 @@ public class EmployeeTabPage {
     @FindBy(className = "o_searchview_input")
     public WebElement searchBox;
 
-    @FindBy(xpath = "(//*[contains(text(),'Employees')])[3]")
+    @FindBy(xpath = "(//span[@class = 'oe_menu_text'])[17]")
     public WebElement sideBarEmployeeButton;
 
     @FindBy(xpath = "(//*[contains(text(),'Badges')])[2]")
     public WebElement getSideBarBadgesButton;
 
-    @FindBy (xpath = "//div[@class = 'oe_kanban_global_click o_kanban_record']")
+    @FindBy (xpath = "//div[@class = 'oe_kanban_global_click o_kanban_record'][1]")
     public WebElement employeeProfileKanban;
+
+
+    // (//span[@class = 'oe_menu_text'])[17]
 }
