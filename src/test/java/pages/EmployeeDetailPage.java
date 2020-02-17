@@ -30,4 +30,43 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//div[@id='o_employee_right']")
     public WebElement organizationChart;
 
+    @FindBy (xpath = "//a[contains(text(),'Work Information')]")
+    public WebElement workInformation_tab;
+
+    @FindBy (xpath = "(//div[@class='o_horizontal_separator'])[1]")
+    public WebElement contactInformation;
+
+    @FindBy (xpath = "//label[contains(text(),'Work Address')]")
+    public WebElement workAddress;
+
+    @FindBy (xpath = "//label[contains(text(),'Work Location')]")
+    public WebElement workLocation;
+
+    @FindBy (xpath = "//label[contains(text(),'Work Email')]")
+    public WebElement workEmail;
+
+    @FindBy (xpath = " //label[contains(text(),'Work Mobile')]")
+    public WebElement workMobile;
+
+    @FindBy (xpath = "//label[contains(text(),'Work Phone')]")
+    public WebElement workPhone;
+
+    @FindBy (xpath = "//div[contains(text(),'Position')]")
+    public WebElement position;
+
+    @FindBy (xpath = "//label[contains(text(),'Department')]")
+    public WebElement department;
+
+    @FindBy (xpath = "//label[contains(text(),'Job Position')]")
+    public WebElement jobPosition;
+
+    @FindBy (xpath = "//label[@for='o_field_input_459']")
+    public WebElement manager;
+
+    @FindBy (xpath = "//label[contains(text(),'Coach')]")
+    public WebElement coach;
+
+    @FindBy (xpath = "//label[contains(text(),'Working Hours')]")
+    public WebElement workingHours;
+
 }
