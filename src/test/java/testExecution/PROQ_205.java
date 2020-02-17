@@ -22,6 +22,11 @@ public class PROQ_205 {
         Assert.assertTrue(employeeDetailPage.organizationChart.isDisplayed(),
                 "Organization Chart is NOT displayed!!");
 
+        if (!employeeDetailPage.alertWhenNoRelatedEmployees.isDisplayed()) {
+            Assert.assertTrue(employeeDetailPage.firstRelatedEmployee.isDisplayed(), "No related employees present");
+            System.out.println("Related employee is present");
+        }
+
 
 
 }

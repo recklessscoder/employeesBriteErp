@@ -30,6 +30,12 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//div[@id='o_employee_right']")
     public WebElement organizationChart;
 
+    @FindBy (xpath = "//div[@name='child_ids']")
+    public WebElement alertWhenNoRelatedEmployees;
+
+    @FindBy (xpath = "(//div[@class='o_org_chart_entry o_org_chart_entry_manager media']//div[@class='media-body'])[1]")
+    public WebElement firstRelatedEmployee;
+
     @FindBy (xpath = "//a[contains(text(),'Work Information')]")
     public WebElement workInformation_tab;
 
