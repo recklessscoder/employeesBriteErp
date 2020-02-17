@@ -12,6 +12,9 @@ public class EmployeeDetailPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+    @FindBy (xpath = "//span[@name='name']")
+    public WebElement nameOfEmployeeInHeader;
+
     @FindBy(xpath = "(//button[@class= 'o_dropdown_toggler_btn btn btn-sm dropdown-toggle'])[1]/..")
     public WebElement printDropdownButton;
 

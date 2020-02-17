@@ -27,6 +27,9 @@ public class PROQ_205 {
             System.out.println("Related employee is present");
         }
 
+        // returning to employees tab
+        Reusable.return_to_employee_page();
+
 
 
 }
