@@ -27,4 +27,7 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//span[contains(text(),'Timesheet')]")
     public WebElement timesheetButton;
 
+    @FindBy (xpath = "//div[@id='o_employee_right']")
+    public WebElement organizationChart;
+
 }
