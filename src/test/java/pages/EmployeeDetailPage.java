@@ -24,5 +24,7 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "(//a[@data-section='files'])[1]")
     public WebElement latestUploadedFile;
 
+    @FindBy (xpath = "//span[contains(text(),'Timesheet')]")
+    public WebElement timesheetButton;
 
 }
