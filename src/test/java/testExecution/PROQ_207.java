@@ -1,13 +1,12 @@
 package testExecution;
 
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.EmployeeFollowPage;
-import utilities.Driver;
+
 import utilities.Reusable;
 
-import java.util.Random;
+
 
 public class PROQ_207 {
 
