@@ -24,5 +24,8 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "(//a[@data-section='files'])[1]")
     public WebElement latestUploadedFile;
 
+    @FindBy(xpath = "//div[@class=\"o_content\"]")
+    public WebElement tableContentList;
+
 
 }
