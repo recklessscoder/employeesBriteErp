@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef9ac6c-a353-4cb4-85cc-f140e1381249" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeGrantingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeGrantingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_201.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_201.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_207.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_207.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_228.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_228.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Reusable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Reusable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_225.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_225.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Reusable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Reusable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
