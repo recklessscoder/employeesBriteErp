@@ -78,4 +78,15 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//label[contains(text(),'Working Hours')]")
     public WebElement workingHours;
 
+    @FindBy (xpath = "//button[@title='Send a message']")
+    public WebElement sendMessageButton;
+
+    @FindBy (xpath = "//textarea[@class='o_input o_composer_text_field']")
+    public WebElement messageBox;
+
+    @FindBy (xpath = "//button[@class='btn btn-sm btn-primary o_composer_button_send hidden-xs']")
+    public WebElement sendButtonFinal;
+
+    @FindBy (xpath = "//div[@class='o_thread_message_content']/p")
+    public WebElement mostRecentMessage;
 }
