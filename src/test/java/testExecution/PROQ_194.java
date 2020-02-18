@@ -29,7 +29,7 @@ public class PROQ_194 {
         employeeDetailPage.sendButtonFinal.click();
 
         // checking if the most recent message equals to entered text
-        // locating most recent message
+        // locating most recent message (dynamic)
         if (employeeDetailPage.mostRecentMessage.getText().equals(sendMessageText)) {
             System.out.println("Message that was just sent is correct");
         } else {
