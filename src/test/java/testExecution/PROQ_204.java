@@ -41,6 +41,9 @@ public class PROQ_204 {
 
         Assert.assertTrue(verify.isEmpty());
 
+        // Nav to Empl tab
+        Reusable.return_to_employee_page();
+
 
 
 
