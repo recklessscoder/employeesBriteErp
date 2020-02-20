@@ -27,6 +27,30 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "(//a[@data-section='files'])[1]")
     public WebElement latestUploadedFile;
 
+    // nextButton to nav to next Employee
+    @FindBy(xpath = "(//button[@class='fa fa-chevron-right btn btn-icon o_pager_next'])[1]")
+    public WebElement nextButton;
+
+    // previousButton to nav to previous Employee
+    @FindBy(xpath = "(//button[@class='fa fa-chevron-left btn btn-icon o_pager_previous'])[1]")
+    public WebElement previousButton;
+
+    // Employee name element (header)
+    @FindBy (xpath = "//span[@class='o_field_char o_field_widget o_readonly_modifier o_required_modifier']")
+    public WebElement employeeNameInHeader;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/button[2]")
+    public WebElement logNoteButton;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[1]/div[1]/div[2]/textarea[1]")
+    public WebElement logNoteMessageBox;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[2]/button")
+    public WebElement finalLogButton;
+
+    @FindBy (xpath = "//div[@class='o_thread_message_content']/p")
+    public WebElement mostRecentLogNote;
+
 
     @FindBy (xpath = "//div[@id='o_employee_right']")
     public WebElement organizationChart;
