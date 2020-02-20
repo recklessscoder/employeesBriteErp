@@ -23,7 +23,7 @@ public class PROQ_204 {
         employeeTabPage.employeeProfileKanban.click();
 
         // click timesheet button
-        employeeDetailPage.timesheetButton.click();
+//        employeeDetailPage.timesheetButton.click();
 
         //click on create button
         timesheetPage.createButton.click();

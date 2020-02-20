@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/aybukegorgulu/IdeaProjects/employeesBriteErp">
+        <classes>
+            <class name="testExecution.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_201">
+                <methods>
+                    <include name="grandBadgesToTheEmployees"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_204">
+                <methods>
+                    <include name="tc204"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_207">
+                <methods>
+                    <include name="follow_unfollow_AnyEmployee"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_225">
+                <methods>
+                    <include name="tc225"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_226">
+                <methods>
+                    <include name="tc226"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_228">
+                <methods>
+                    <include name="seeEmployeeList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

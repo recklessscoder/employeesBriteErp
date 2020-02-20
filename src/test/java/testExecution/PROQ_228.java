@@ -8,7 +8,7 @@ import utilities.Reusable;
 
 public class PROQ_228 {
 
-    @Test
+    @Test (priority  = 2)
     public void seeEmployeeList() {
 
         EmployeeTabPage employeeTabPage = new EmployeeTabPage();

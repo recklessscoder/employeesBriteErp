@@ -12,7 +12,7 @@ import utilities.Reusable;
 
 public class PROQ_201 {
 
-    @Test
+    @Test (priority = 1 )
     public void grandBadgesToTheEmployees() throws InterruptedException {
 
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 120);
@@ -24,6 +24,7 @@ public class PROQ_201 {
         employeeGrantingPage.grantTo("good job", "snoop dog");
         employeeGrantingPage.grantTo("good job", "kristen bell");
         employeeGrantingPage.grantTo("problem solver","emma stone");
+
 
   }
 }
