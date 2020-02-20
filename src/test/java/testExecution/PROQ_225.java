@@ -15,8 +15,11 @@ public class PROQ_225 {
         //1. initiate driver to employee page (as a main module)
         Reusable.login_nav_to_employee_tab();
 
+
         EmployeeTabPage employeeTabPage =new EmployeeTabPage();
         EmployeeDetailPage employeeDetailPage = new EmployeeDetailPage();
+
+
 
         employeeTabPage.employeeProfileKanban.click();
 
@@ -26,14 +29,10 @@ public class PROQ_225 {
 
         Reusable.waitForVisibility(employeeDetailPage.latestUploadedFile,10);
 
-        String latestFileName = employeeDetailPage.latestUploadedFile.getText();
-
         employeeDetailPage.latestUploadedFile.click();
 
         Reusable.pause(5);
-        Assert.assertTrue(Reusable.isFileDownloaded("C:\\Users\\Bobby\\Downloads",latestFileName));
-
-
+        Assert.assertTrue(Reusable.isFileDownloaded("C:\\Users\\Bobby\\Downloads","212.xlsx"));
 
     }
 }
