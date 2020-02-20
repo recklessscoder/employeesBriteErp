@@ -29,4 +29,18 @@ public class DeleteTimesheet {
     @FindBy(xpath = "//button[@class='btn btn-sm btn-primary']")
     public WebElement btnOk;
 
+    @FindBy (xpath = "//button[@accesskey = 'c']" )
+    public WebElement createButton;
+
+    @FindBy ( xpath = "(//input [@class = 'o_input ui-autocomplete-input'])[1]")
+    public WebElement inputEmployeeName;
+
+    @FindBy (xpath = "(//input [@class = 'o_input ui-autocomplete-input'])[2]")
+    public WebElement inputProjectName;
+
+    @FindBy (xpath = "(//input [@class = 'o_input ui-autocomplete-input'])[3]")
+    public WebElement inputTask;
+
+    @FindBy (xpath = "//input[@name = \"name\"]")
+    public  WebElement inputDescription ;
 }

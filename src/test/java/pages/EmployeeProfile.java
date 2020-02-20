@@ -34,4 +34,8 @@ public class EmployeeProfile {
     public WebElement timeField;
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_list_button_save']")
     public WebElement saveButton;
+    @FindBy(xpath = "//div[@class='oe_kanban_global_click o_kanban_record'][1]")
+    public WebElement selectFirstEmployee;
+    @FindBy(xpath = "//div[@class='oe_kanban_global_click o_kanban_record'][5]")
+    public WebElement selectEmployeeEmptAttachment;
 }
