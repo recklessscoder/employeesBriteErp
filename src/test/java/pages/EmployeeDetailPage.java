@@ -113,4 +113,7 @@ public class EmployeeDetailPage {
     public WebElement mostRecentMessage;
     @FindBy(xpath = "//div[@class=\"o_content\"]")
     public WebElement tableContentList;
+
+    @FindBy(xpath = "//div[@class='oe_kanban_details']")
+    public WebElement tableForEmployee;
 }
