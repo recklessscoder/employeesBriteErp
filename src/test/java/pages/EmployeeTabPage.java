@@ -31,5 +31,8 @@ public class EmployeeTabPage {
     @FindBy(xpath = "//button[@class=\"btn btn-icon fa fa-lg fa-list-ul o_cp_switch_list\"]")
     public WebElement listButton;
 
+    @FindBy(xpath = "//span[@class='oe_menu_text'][contains(text(),'Badges')]")
+    public WebElement badgesTab;
+
 }
 
