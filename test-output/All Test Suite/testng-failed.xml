@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="/Users/aybukegorgulu/IdeaProjects/employeesBriteErp(failed)">
+    <classes>
+      <class name="testExecution.PROQ_226">
+        <methods>
+          <include name="tc226"/>
+        </methods>
+      </class> <!-- testExecution.PROQ_226 -->
+      <class name="testExecution.PROQ_225">
+        <methods>
+          <include name="tc225"/>
+        </methods>
+      </class> <!-- testExecution.PROQ_225 -->
+      <class name="testExecution.PROQ_204">
+        <methods>
+          <include name="tc204"/>
+        </methods>
+      </class> <!-- testExecution.PROQ_204 -->
+      <class name="testExecution.PROQ_207">
+        <methods>
+          <include name="follow_unfollow_AnyEmployee"/>
+        </methods>
+      </class> <!-- testExecution.PROQ_207 -->
+      <class name="testExecution.PROQ_228">
+        <methods>
+          <include name="seeEmployeeList"/>
+        </methods>
+      </class> <!-- testExecution.PROQ_228 -->
+    </classes>
+  </test> <!-- /Users/aybukegorgulu/IdeaProjects/employeesBriteErp(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

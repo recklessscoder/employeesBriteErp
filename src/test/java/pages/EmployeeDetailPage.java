@@ -87,4 +87,6 @@ public class EmployeeDetailPage {
 
     @FindBy (xpath = "//div[@class='o_thread_message_content']/p")
     public WebElement mostRecentMessage;
+    @FindBy(xpath = "//div[@class=\"o_content\"]")
+    public WebElement tableContentList;
 }
