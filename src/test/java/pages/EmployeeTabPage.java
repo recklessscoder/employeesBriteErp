@@ -23,6 +23,5 @@ public class EmployeeTabPage {
     @FindBy (xpath = "//div[@class = 'oe_kanban_global_click o_kanban_record'][1]")
     public WebElement employeeProfileKanban;
 
-
-    // (//span[@class = 'oe_menu_text'])[17]
 }
+
