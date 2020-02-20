@@ -1,7 +1,7 @@
 package testExecution;
 import com.github.javafaker.Faker;
 import org.testng.annotations.Test;
-import pages.PROQ_210.EmployeeProfile;
+import pages.EmployeeProfile;
 import utilities.Reusable;
 
 public class PROQ_210 {

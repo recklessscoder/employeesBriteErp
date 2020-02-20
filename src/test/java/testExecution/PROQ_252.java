@@ -1,6 +1,6 @@
 package testExecution;
 import org.testng.annotations.Test;
-import pages.PROQ_252.DeleteTimesheet;
+import pages.DeleteTimesheet;
 import utilities.Driver;
 import utilities.Reusable;
 
