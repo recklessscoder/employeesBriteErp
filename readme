@@ -1,6 +1,6 @@
-1.We create Configuration.propertiesfileasthedetailofourkeyworddata.
-2.We create utilitiespackageforandstoreallreuseablecode
-3.We createConfig.javaasreaderofourConfiguration.propertiesfile.
+1.We create Configuration.properties file as the detail of our key word data.
+2.We create utilities package for and store all reusable code
+3.We createConfig.java as reader of our Configuration.properties file.
 4.We create Driver with Singleton design pattern.
 5.We store all the web element based on PageObjectModel pattern on pages package.
 
