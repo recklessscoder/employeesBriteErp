@@ -8,7 +8,7 @@ import utilities.Driver;
 public class LoginPage {
 
 public LoginPage(){
-    PageFactory.initElements(Driver.getDriver(),this);
+    PageFactory.initElements(Driver.getDriver(), this);
 }
 
     //username box web element

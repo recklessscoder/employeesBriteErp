@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="briteEmpProject" />
         <module name="briteERPProQA" />
+        <module name="employeesBriteErp" />
+        <module name="briteEmpProject" />
       </profile>
     </annotationProcessing>
   </component>

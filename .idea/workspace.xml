@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef9ac6c-a353-4cb4-85cc-f140e1381249" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_196.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeDetailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeTabPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeDetailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeDetailPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeTabPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeTabPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_213.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_213.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_225.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_225.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -38,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -46,7 +53,19 @@
       <recent name="C:\Users\Bobby\IdeaProjects\briteEmpProject\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PROQ_237">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.PROQ_196.tc196">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="briteEmpProject" />
       <extension name="coverage">
@@ -64,25 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteEmpProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testExecution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PROQ_203" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PROQ_196" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="employeesBriteErp" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +92,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_203" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_196" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PROQ_203.employeeBadgesLink" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PROQ_196.tc196" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="employeesBriteErp" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_203" />
-      <option name="METHOD_NAME" value="employeeBadgesLink" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_196" />
+      <option name="METHOD_NAME" value="tc196" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PROQ_237" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PROQ_209" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="employeesBriteErp" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +127,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_237" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_209" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PROQ_225" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="employeesBriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testExecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testExecution" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_225" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,25 +154,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PROQ_237" />
-        <item itemvalue="TestNG.PROQ_203" />
-        <item itemvalue="TestNG.PROQ_203.employeeBadgesLink" />
+        <item itemvalue="TestNG.PROQ_196.tc196" />
+        <item itemvalue="TestNG.PROQ_196" />
+        <item itemvalue="TestNG.PROQ_209" />
+        <item itemvalue="TestNG.PROQ_225" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.loginTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -169,54 +175,37 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581480002527">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1581480002527" />
-    <state x="536" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1582225993773">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state x="536" y="333" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1368.882@0.0.1368.882" timestamp="1582225993773" />
-    <state x="484" y="332" width="398" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582225982829">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state x="484" y="332" width="398" height="222" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1368.882@0.0.1368.882" timestamp="1582225982829" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581538372019">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1581538372019" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581541401254">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581541401254" />
-    <state width="1326" height="230" key="GridCell.Tab.0.bottom" timestamp="1582226748147">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state width="1326" height="230" key="GridCell.Tab.0.bottom/0.0.1368.882@0.0.1368.882" timestamp="1582226748147" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581538381051" />
-    <state width="1326" height="230" key="GridCell.Tab.0.center" timestamp="1582226748144">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state width="1326" height="230" key="GridCell.Tab.0.center/0.0.1368.882@0.0.1368.882" timestamp="1582226748144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581538381051" />
-    <state width="1326" height="230" key="GridCell.Tab.0.left" timestamp="1582226748144">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state width="1326" height="230" key="GridCell.Tab.0.left/0.0.1368.882@0.0.1368.882" timestamp="1582226748144" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581538381051" />
-    <state width="1326" height="230" key="GridCell.Tab.0.right" timestamp="1582226748146">
-      <screen x="0" y="0" width="1368" height="882" />
-    </state>
-    <state width="1326" height="230" key="GridCell.Tab.0.right/0.0.1368.882@0.0.1368.882" timestamp="1582226748146" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581538381051" />
-    <state x="277" y="56" key="SettingsEditor" timestamp="1581539239617">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581539239617" />
-    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581479730446">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1581479730446" />
+    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" />
+    <state x="549" y="168" key="FileChooserDialogImpl" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
+    <state x="277" y="56" key="SettingsEditor" />
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
+    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
+    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" />
   </component>
 </project>
