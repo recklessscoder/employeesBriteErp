@@ -22,6 +22,10 @@ public class EmployeeTabPage {
 
     @FindBy (xpath = "//div[@class = 'oe_kanban_global_click o_kanban_record'][1]")
     public WebElement employeeProfileKanban;
+
+    @FindBy (xpath = "//div[@class = 'oe_kanban_global_click o_kanban_record'][6]")
+    public WebElement employeeArthurSam;
+
     @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[7]/ul/li/a/span")
     public  WebElement badges;
 
