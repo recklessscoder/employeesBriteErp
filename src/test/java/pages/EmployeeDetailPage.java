@@ -42,6 +42,12 @@ public class EmployeeDetailPage {
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/button[2]")
     public WebElement logNoteButton;
 
+    @FindBy(xpath = "(//div[@class='o_thread_message_core o_mail_note'])[1]")
+    public WebElement lastMessage;
+
+    @FindBy(xpath = "(//i[@title='Mark as Todo'])[1]")
+    public WebElement starForLastMessage;
+
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[1]/div[1]/div[2]/textarea[1]")
     public WebElement logNoteMessageBox;
 
@@ -58,8 +64,11 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//div[@name='child_ids']")
     public WebElement alertWhenNoRelatedEmployees;
 
-    @FindBy (xpath = "(//div[@class='o_org_chart_entry o_org_chart_entry_manager media']//div[@class='media-body'])[1]")
+    @FindBy (xpath = "(//a[@class='o_employee_redirect'])[1]")
     public WebElement firstRelatedEmployee;
+
+    @FindBy (xpath = "(//h5/b)[1]")
+    public WebElement firstRelatedEmployeeName;
 
     @FindBy (xpath = "//a[contains(text(),'Work Information')]")
     public WebElement workInformation_tab;
@@ -91,7 +100,7 @@ public class EmployeeDetailPage {
     @FindBy (xpath = "//label[contains(text(),'Job Position')]")
     public WebElement jobPosition;
 
-    @FindBy (xpath = "//label[@for='o_field_input_459']")
+    @FindBy (xpath = "//label[@for='o_field_input_1040']")
     public WebElement manager;
 
     @FindBy (xpath = "//label[contains(text(),'Coach')]")
