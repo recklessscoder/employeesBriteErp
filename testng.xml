@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/aybukegorgulu/IdeaProjects/employeesBriteErp">
+        <classes>
+            <class name="testExecution.LoginTest">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_194">
+                <methods>
+                    <include name="tc_194"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_196">
+                <methods>
+                    <include name="tc196"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_201">
+                <methods>
+                    <include name="grandBadgesToTheEmployees"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_202">
+                <methods>
+                    <include name="tc202"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_203">
+                <methods>
+                    <include name="employeeBadgesLink"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_204">
+                <methods>
+                    <include name="tc204"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_205">
+                <methods>
+                    <include name="tc_205"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_207">
+                <methods>
+                    <include name="follow_unfollow_AnyEmployee"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_209">
+                <methods>
+                    <include name="tc_209"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_210">
+                <methods>
+                    <include name="createTimesheet"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_213">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_225">
+                <methods>
+                    <include name="tc225"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_226">
+                <methods>
+                    <include name="tc226"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_228">
+                <methods>
+                    <include name="seeEmployeeList"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_236">
+                <methods>
+                    <include name="tc_236"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_237">
+                <methods>
+                    <include name="showingExistingEmployee"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_247">
+                <methods>
+                    <include name="tc247"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_249">
+                <methods>
+                    <include name="tc_249"/>
+                </methods>
+            </class>
+            <class name="testExecution.PROQ_252">
+                <methods>
+                    <include name="deleteTimesheet"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

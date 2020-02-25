@@ -31,7 +31,7 @@ public class Reusable {
 
     public static void return_to_employee_page(){
         EmployeeTabPage employeeTabPage =new EmployeeTabPage();
-        employeeTabPage.sideBarEmployeeButton.click();
+        employeeTabPage.employeeButtonTop.click();
     }
 
     public static int randomEmployee(int maxEmployee){

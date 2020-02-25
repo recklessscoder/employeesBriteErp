@@ -1,10 +1,12 @@
 package testExecution;
 
 import cucumber.api.java.an.E;
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.EmployeeDetailPage;
 import pages.EmployeeTabPage;
+import utilities.Driver;
 import utilities.Reusable;
 
 public class PROQ_225 {
@@ -27,12 +29,14 @@ public class PROQ_225 {
 
         employeeDetailPage.attachmentButton.click();
 
+
         Reusable.waitForVisibility(employeeDetailPage.latestUploadedFile,10);
 
+        String file = Driver.getDriver().findElement(By.xpath("//a[@data-section = 'files']")).getText();
         employeeDetailPage.latestUploadedFile.click();
 
         Reusable.pause(5);
-        Assert.assertTrue(Reusable.isFileDownloaded("C:\\Users\\Bobby\\Downloads","212.xlsx"));
+        Assert.assertTrue(Reusable.isFileDownloaded("/Users/aybukegorgulu/Downloads", file),file);
 
     }
 }
