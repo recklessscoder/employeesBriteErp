@@ -43,4 +43,7 @@ public class DeleteTimesheet {
 
     @FindBy (xpath = "//input[@name = \"name\"]")
     public  WebElement inputDescription ;
+
+    @FindBy (xpath = "//button [@class=\"btn btn-sm btn-primary\"]")
+    public WebElement okButton;
 }

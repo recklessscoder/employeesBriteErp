@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -16,6 +17,9 @@ public class EmployeeTabPage {
 
     @FindBy(xpath = "(//span[@class = 'oe_menu_text'])[17]")
     public WebElement sideBarEmployeeButton;
+
+    @FindBy(xpath =   "//a[@href=\"/web#menu_id=157&action=\"]")
+    public WebElement employeeButtonTop;
 
     @FindBy(xpath = "(//*[contains(text(),'Badges')])[2]")
     public WebElement getSideBarBadgesButton;

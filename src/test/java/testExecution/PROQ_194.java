@@ -30,14 +30,11 @@ public class PROQ_194 {
 
         // checking if the most recent message equals to entered text
         // locating most recent message (dynamic)
-        if (employeeDetailPage.mostRecentMessage.getText().equals(sendMessageText)) {
-            System.out.println("Message that was just sent is correct");
-        } else {
-            System.out.println("This is INCORRECT message!");
-        }
+        Assert.assertEquals(sendMessageText,employeeDetailPage.getLastMessage.getText());
 
-        // nav to Employees tab
         Reusable.return_to_employee_page();
+        // nav to Employees tab
+
 
 
 

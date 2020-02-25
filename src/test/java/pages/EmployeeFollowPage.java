@@ -55,7 +55,7 @@ public class EmployeeFollowPage {
         employees.get(i).findElement(By.cssSelector(buttonCss)).click();
         following++;
         Reusable.pause(1);
-        System.out.println("You followed " + getName(i));
+//        System.out.println("You followed " + getName(i));
         return employees.get(i).findElement(By.cssSelector(employeeNameCss)).getText();
     }
 

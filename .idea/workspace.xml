@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef9ac6c-a353-4cb4-85cc-f140e1381249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_196.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DeleteTimesheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DeleteTimesheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeDetailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeDetailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeFollowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeFollowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EmployeeTabPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EmployeeTabPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_194.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_194.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_225.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testExecution/PROQ_225.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Reusable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Reusable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/employeesBriteErp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/employeesBriteErp.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DeleteTimesheet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DeleteTimesheet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeDetailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeDetailPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeFollowPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeFollowPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EmployeeTabPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EmployeeTabPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_194.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_194.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_225.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testExecution/PROQ_225.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Reusable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Reusable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,44 +59,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Bobby\IdeaProjects\briteEmpProject\src\test\java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.PROQ_196.tc196">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteEmpProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testExecution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PROQ_196" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.miniSmoke">
+    <configuration name="PROQ_204.tc204" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="employeesBriteErp" />
       <extension name="coverage">
         <pattern>
@@ -92,43 +76,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_196" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PROQ_196.tc196" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="employeesBriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testExecution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_196" />
-      <option name="METHOD_NAME" value="tc196" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_204" />
+      <option name="METHOD_NAME" value="tc204" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PROQ_209" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="employeesBriteErp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testExecution.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testExecution" />
-      <option name="MAIN_CLASS_NAME" value="testExecution.PROQ_209" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,13 +102,111 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/aybukegorgulu/IdeaProjects/employeesBriteErp/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="employeesBriteErp" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="miniSmoke" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="employeesBriteErp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testExecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testExecution" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.miniSmoke" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="miniSmoke.tc204" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="employeesBriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testExecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testExecution" />
+      <option name="MAIN_CLASS_NAME" value="testExecution.miniSmoke" />
+      <option name="METHOD_NAME" value="tc204" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minismoke2" type="TestNG" singleton="false">
+      <module name="employeesBriteErp" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testExecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testExecution" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.minismoke2" />
+      <item itemvalue="TestNG.miniSmoke" />
+      <item itemvalue="TestNG.PROQ_204.tc204" />
+      <item itemvalue="TestNG.PROQ_225" />
+      <item itemvalue="TestNG.miniSmoke.tc204" />
+      <item itemvalue="TestNG./Users/aybukegorgulu/IdeaProjects/employeesBriteErp/testng.xml" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PROQ_196.tc196" />
-        <item itemvalue="TestNG.PROQ_196" />
-        <item itemvalue="TestNG.PROQ_209" />
+        <item itemvalue="TestNG.miniSmoke" />
+        <item itemvalue="TestNG./Users/aybukegorgulu/IdeaProjects/employeesBriteErp/testng.xml" />
+        <item itemvalue="TestNG.miniSmoke.tc204" />
         <item itemvalue="TestNG.PROQ_225" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.PROQ_204.tc204" />
       </list>
     </recent_temporary>
   </component>
@@ -189,23 +237,126 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser" />
-    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" />
-    <state x="549" y="168" key="FileChooserDialogImpl" />
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" />
-    <state x="277" y="56" key="SettingsEditor" />
-    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
-    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
-    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" />
+    <state x="351" y="115" key="#PROQ_201" timestamp="1582577636418">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="351" y="115" key="#PROQ_201/0.23.1440.834@0.23.1440.834" timestamp="1582577636418" />
+    <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582593699163">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1582593699163" />
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834@0.23.1440.834" timestamp="1582579011699" />
+    <state x="184" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.842@0.23.1440.842" timestamp="1582570397896" />
+    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582510838635" />
+    <state x="532" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state x="423" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582593690681">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="423" y="247" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1582593690681" />
+    <state x="423" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.834@0.23.1440.834" timestamp="1582578928740" />
+    <state x="423" y="254" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.842@0.23.1440.842" timestamp="1582570396470" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582510838635" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state x="351" y="115" key="#miniSmoke" timestamp="1582578930734">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="351" y="115" key="#miniSmoke/0.23.1440.834@0.23.1440.834" timestamp="1582578930734" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582510838635" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1582595217119">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582595217119" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582593149464" />
+    <state width="1398" height="311" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1582590562113" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.835@0.23.1440.835" timestamp="1582583208175" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1582584329771" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1582585211697" />
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1582585781418" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1582585934968" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1582586309033" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.841@0.23.1440.841" timestamp="1582586598417" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1582586816572" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.843@0.23.1440.843" timestamp="1582587008534" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.844@0.23.1440.844" timestamp="1582587116728" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1582595217117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582595217117" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state width="1878" height="207" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582593149462" />
+    <state width="1398" height="311" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1582590562112" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.835@0.23.1440.835" timestamp="1582583208174" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1582584329771" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1582585211696" />
+    <state width="1398" height="267" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1582585781417" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1582585934968" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1582586309033" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.841@0.23.1440.841" timestamp="1582586598416" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1582586816571" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.843@0.23.1440.843" timestamp="1582587008532" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.844@0.23.1440.844" timestamp="1582587116727" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1582595217117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582595217117" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state width="1878" height="207" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582593149461" />
+    <state width="1398" height="311" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1582590562112" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.835@0.23.1440.835" timestamp="1582583208173" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1582584329770" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1582585211696" />
+    <state width="1398" height="267" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1582585781417" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1582585934967" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1582586309032" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.841@0.23.1440.841" timestamp="1582586598416" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1582586816570" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.843@0.23.1440.843" timestamp="1582587008531" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.844@0.23.1440.844" timestamp="1582587116726" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1582595217118">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582595217118" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state width="1878" height="207" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582593149463" />
+    <state width="1398" height="311" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1582590562113" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.835@0.23.1440.835" timestamp="1582583208174" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1582584329771" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1582585211697" />
+    <state width="1398" height="267" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1582585781418" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1582585934968" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1582586309033" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.841@0.23.1440.841" timestamp="1582586598417" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1582586816571" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.843@0.23.1440.843" timestamp="1582587008532" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.844@0.23.1440.844" timestamp="1582587116727" />
+    <state width="1398" height="267" key="GridCell.Tab.1.bottom" timestamp="1582590562103">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="267" key="GridCell.Tab.1.bottom/0.23.1440.834@0.23.1440.834" timestamp="1582590562103" />
+    <state width="1398" height="267" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1582585781419" />
+    <state width="1398" height="267" key="GridCell.Tab.1.center" timestamp="1582590562103">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="267" key="GridCell.Tab.1.center/0.23.1440.834@0.23.1440.834" timestamp="1582590562103" />
+    <state width="1398" height="267" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1582585781419" />
+    <state width="1398" height="267" key="GridCell.Tab.1.left" timestamp="1582590562103">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="267" key="GridCell.Tab.1.left/0.23.1440.834@0.23.1440.834" timestamp="1582590562103" />
+    <state width="1398" height="267" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1582585781418" />
+    <state width="1398" height="267" key="GridCell.Tab.1.right" timestamp="1582590562103">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state width="1398" height="267" key="GridCell.Tab.1.right/0.23.1440.834@0.23.1440.834" timestamp="1582590562103" />
+    <state width="1398" height="267" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1582585781419" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1582590540006">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
+    <state x="277" y="56" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1582590540006" />
+    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582510838635" />
+    <state x="406" y="28" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1582510838635" />
   </component>
 </project>
